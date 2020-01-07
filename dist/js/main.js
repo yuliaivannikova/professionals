@@ -1,7 +1,7 @@
 //video
 
 $("#video").vide({
-    mp4: ".r/video/video-bg",
+    mp4: "./video/video-bg",
     poster: "./video/video-bg.jpg",
     // poster: path / to / poster
 }, {
