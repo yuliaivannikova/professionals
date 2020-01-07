@@ -1,0 +1,43 @@
+.footer {
+
+    &__facebook {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #3b579d;
+        margin-right: 7px;
+    }
+
+    &__twitter {
+        width: 50px;
+        height: 50px;
+        background-color: #5ea9dd;
+        border-radius: 50%;
+        margin-right: 7px;
+    }
+
+    &__google {
+        width: 50px;
+        height: 50px;
+        background-color: #df4a32;
+        border-radius: 50%;
+        margin-right: 7px;
+    }
+
+    &__copyright {
+        opacity: 0.1;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 34px;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+}
+
+.fab {
+    font-size: 23px;
+    color: white;
+
+}

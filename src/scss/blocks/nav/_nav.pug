@@ -1,0 +1,28 @@
+mixin nav
+    nav(class="navbar navbar-expand-lg navbar-light bg-light nav__list") 
+        button(class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation") 
+            span(class="navbar-toggler-icon")  
+        div(class="collapse navbar-collapse" id="navbarSupportedContent") 
+            ul(class="navbar-nav mr-auto d-flex justify-content-center aline-items-center") 
+                li(class="nav-item active nav__item") 
+                    a(class="nav-link nav__link" href="#") Home 
+                        span(class="sr-only") (current) 
+                li(class="nav-item dropdown nav__item") 
+                    a(class="nav-link nav__link dropdown-toggle" href="#"
+                        id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false") About
+                    div(class="dropdown-menu nav__dropdown"
+                        aria-labelledby="navbarDropdown ") 
+                        a(class="dropdown-item nav__menu " href="#") Features 
+                        a(class="dropdown-item nav__menu" href="#") Advantages 
+                        a(class="dropdown-item nav__menu" href="#") Testimonials 
+                li(class="nav-item nav__item") 
+                    a(class="nav-link nav__link" href="#")  Our Team
+                li(class="nav-item nav__item") 
+                    a(class="nav-link nav__link disabled" href="#") FAQ
+                li(class="nav-item nav__item") 
+                    a(class="nav-link nav__link disabled" href="#") Blog
+                li(class="nav-item nav__item") 
+                    a(class="nav-link nav__link disabled nav__link" href="#") Partners

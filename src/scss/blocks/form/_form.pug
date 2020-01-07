@@ -1,0 +1,7 @@
+mixin form
+    form(action="#" method="get")
+        .form__field
+            input(required type="text" placeholder="Full name" class="form__input form__input--focus" name="Name") 
+            input(required type="email" placeholder="E-mail" class="form__input" name="email") 
+            input(type="text" placeholder="Phone" data-mask="+38 (000)-000-00-00" class="form__input" name="tel" minlength="19") 
+            button(class="form__input form__input--active") GET STARTED NOW!
