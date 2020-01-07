@@ -1,5 +1,5 @@
 .faqs {
-    padding-top: 124px;
+    padding-top: 121px;
     padding-bottom: 64px;
     background-image: url(../img/bg6.png);
     background-position: top center;
@@ -11,13 +11,13 @@
         font-size: 24px;
         font-weight: 400;
         line-height: 46px;
-        border-radius: 4px;
         display: flex;
         width: 100%;
         padding-top: 10px;
         padding-bottom: 15px;
         position: relative;
-        border: none;
+
+
 
         &:focus {
             text-decoration: none;
@@ -84,10 +84,11 @@
         box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.1);
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
+        padding-top: 0;
+        padding-bottom: 19px;
     }
 
     &__card {
-        background-color: #ff4538;
         box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.1);
         margin-bottom: 30px;
         border-radius: 4px;
@@ -95,20 +96,32 @@
 
 }
 
+.faqs__title:not(.collapsed) {
+    background-color: #dd3c30;
+}
+
+.faqs__title.collapsed {
+    background-color: #ff4538;
+}
+
 .card-header {
     padding: 0;
-    background-color: #ff4538;
     border-bottom: none;
 }
 
-.card-active {
-    background-color: #dd3c30;
+
+.btn.faqs__title {
+    border-radius: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
 
-#headingOne.card-header {
-    background-color: #dd3c30;
+.btn.faqs__title.collapsed {
+
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
-#headingOne.card-header.card-active {
-    background-color: #ff4538;
+.card {
+    background-color: transparent;
 }

@@ -1,5 +1,5 @@
 mixin blog
-    section(class="blog") 
+    section(class="blog" id="blog") 
             .container
                 h2(class="base__title base__title--blog d-flex justify-content-center")  Latest From the Blog
                 p(class="base__text base__text--blog ").
@@ -11,13 +11,21 @@ mixin blog
                             .blog__img 
                                 a(href="#" class="blog__link") 
                                     img(src="./img/img13.png" alt="img" class="blog__pic") 
-                            .blog__text 
-                                p(class="blog__date") 2 days ago
-                                p(class="blog__subtitle") No nam conceptam suscipiantur . . .
+                                .blog__text 
+                                    p(class="blog__date") 2 days ago
+                                    p(class="blog__subtitle") No nam conceptam suscipiantur . . .
+                                .blog__plate
+                                    a(href="#")
+                                        div(class="blog__marker d-flex justify-content-center align-items-center") 
+                                            .material-icons-launch.blog__icon 
                         .col-md-6 
                             .blog__img
                                 a(href="#" class="blog__link") 
                                     img(src="./img/img14.png" alt="img" class="blog__pic") 
-                            .blog__text 
-                                p(class="blog__date") 4 days ago
-                                p(class="blog__subtitle")  Eum erroribus necessitatibus ne. . .
+                                .blog__text 
+                                    p(class="blog__date") 4 days ago
+                                    p(class="blog__subtitle")  Eum erroribus necessitatibus ne. . .
+                                .blog__plate
+                                    a(href="#")
+                                        div(class="blog__marker d-flex justify-content-center align-items-center") 
+                                            .material-icons-launch.blog__icon 

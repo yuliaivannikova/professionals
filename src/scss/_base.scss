@@ -1,6 +1,10 @@
 a {
     text-decoration: none;
     cursor: pointer;
+
+    &:hover {
+        color: none !important;
+    }
 }
 
 
@@ -23,10 +27,6 @@ a {
 
 }
 
-* {
-    box-sizing: border-box;
-}
-
 .wrap-block {
     margin-top: 500px;
     display: table-cell;
@@ -36,8 +36,9 @@ a {
 
 body {
     font-family: 'Lato', sans-serif;
-    // background-image: url(../img/bg.png);
+    background-image: url(../img/bg.png);
     background-position: top;
+
 }
 
 .base {

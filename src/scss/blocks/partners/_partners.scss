@@ -1,8 +1,20 @@
 .partners {
-    padding-top: 116px;
+    padding-top: 94px;
     padding-bottom: 108px;
 
     &__img {
         text-align: center;
+    }
+
+    &__plate1 {
+        padding-left: 162px;
+    }
+
+    &__plate2 {
+        padding-left: 61px;
+    }
+
+    &__plate3 {
+        margin-left: -32px;
     }
 }
