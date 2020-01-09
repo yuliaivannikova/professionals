@@ -6,6 +6,7 @@
         border-radius: 50%;
         background-color: #3b579d;
         margin-right: 7px;
+
     }
 
     &__twitter {
@@ -23,6 +24,26 @@
         border-radius: 50%;
         margin-right: 7px;
     }
+
+    &__twitter:hover,
+    &__google:hover,
+    &__facebook:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+    &__twitter:hover i {
+        color: #5ea9dd;
+    }
+
+    &__google:hover i {
+        color: #df4a32;
+    }
+
+    &__facebook:hover i {
+        color: #3b579d;
+    }
+
 
     &__copyright {
         opacity: 0.1;
