@@ -38,4 +38,31 @@
         color: white;
 
     }
+
+    @media screen and (max-width: 991px) {
+        &__icon {
+            font-size: 43px;
+        }
+
+        &__marker {
+            width: 65px;
+            height: 65px;
+        }
+
+        &__title {
+            font-size: 20px;
+            line-height: 1;
+        }
+
+        &__text {
+            font-size: 17px;
+        }
+
+        & {
+            padding-top: 80px;
+            padding-bottom: 50px;
+        }
+    }
+
+
 }

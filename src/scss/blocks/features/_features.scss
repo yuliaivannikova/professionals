@@ -35,4 +35,55 @@
         color: #333;
         opacity: 0.2;
     }
+
+    &__img {
+        border: none;
+
+    }
+
+    @media screen and (max-width: 991px) {
+        &__icon {
+            font-size: 43px;
+        }
+
+        &__title {
+            font-size: 20px;
+            line-height: 1;
+        }
+
+        &__text {
+            font-size: 17px;
+            line-height: 27px;
+        }
+
+        & {
+            padding-top: 80px;
+
+        }
+
+        &__desc {
+            padding: 15px 0 15px 15px;
+        }
+
+        &__img {
+            margin-top: 12%;
+        }
+
+        &__img-wrapper {
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+            flex-direction: column;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+
+        &__img {
+            margin-top: 0;
+            max-width: 65%;
+        }
+
+
+    }
 }

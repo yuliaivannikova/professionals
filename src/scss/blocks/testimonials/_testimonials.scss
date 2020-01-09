@@ -37,6 +37,46 @@
         padding-bottom: 57px;
     }
 
+    @media screen and (max-width: 991px) {
+
+        &__title {
+            font-size: 18px;
+            text-align: center;
+        }
+
+        & {
+            padding-top: 80px;
+            padding-bottom: 50px;
+        }
+
+        &__text {
+            font-size: 17px;
+        }
+
+    }
+
+    @media screen and (max-width: 767px) {
+
+        &__title {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+
+
+    }
+
+    @media screen and (max-width: 575px) {
+
+        &__title {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+
+
+    }
+
 }
 
 .slick-dots li.slick-active button::before {

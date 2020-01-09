@@ -35,4 +35,38 @@
         padding-left: 5px;
         padding-top: 2px;
     }
+
+    @media screen and (max-width: 991px) {
+
+
+        &__title {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        &__text {
+            font-size: 17px;
+        }
+
+        & {
+            padding-top: 80px;
+            padding-bottom: 50px;
+        }
+
+        &__img {
+            max-width: 70%;
+        }
+
+
+    }
+
+    @media screen and (max-width: 767px) {
+
+        &__text {
+            padding-bottom: 20px;
+        }
+
+
+    }
+
 }

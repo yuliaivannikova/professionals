@@ -27,44 +27,8 @@ $('.testimonials__slider').slick({
     dots: true,
     autoplay: false,
     autoplaySpeed: 4000,
-    // responsive: [{
-    //         breakpoint: 1200,
-    //         settings: {
-    //             slidesToShow: 2,
-    //             arrows: false,
-    //         }
-    //     },
-    //     {
-    //         breakpoint: 992,
-    //         settings: {
-    //             slidesToShow: 2,
-    //             arrows: true,
-    //         }
-    //     },
-    //     {
-    //         breakpoint: 836,
-    //         settings: {
-    //             slidesToShow: 2,
-    //             arrows: false,
-    //         }
-    //     },
-    //     {
-    //         breakpoint: 768,
-    //         settings: {
-    //             slidesToShow: 1,
-    //             arrows: true,
-    //         }
-    //     },
-    //     {
-    //         breakpoint: 670,
-    //         settings: {
-    //             slidesToShow: 1,
-    //             arrows: false,
+    arrows: false,
 
-    //         }
-    //     },
-
-    // ]
 });
 
 
@@ -280,6 +244,7 @@ $(function () {
 
 });
 
+//nav
 
 $(function () {
     var navLink = $('li a');
@@ -292,3 +257,24 @@ $(function () {
         }, 2000)
     });
 });
+
+
+
+$(function () {
+    $('.navbar-toggler').on('click', function () {
+        var navList = $('.nav');
+        var link = ($(".navbar > .show").parent());
+
+        if (link) {
+            navList.toggleClass('nav-active')
+            console.log(navList);
+
+        }
+
+        var m = $('.navbar-collapse');
+        m.addClass('collapsing')
+
+    });
+
+
+})

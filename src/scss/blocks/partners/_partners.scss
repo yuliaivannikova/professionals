@@ -1,4 +1,5 @@
 .partners {
+    background-color: white;
     padding-top: 94px;
     padding-bottom: 108px;
 
@@ -16,5 +17,37 @@
 
     &__plate3 {
         margin-left: -32px;
+    }
+
+    @media screen and (max-width: 1199px) {
+        &__plate1 {
+            padding-left: 0;
+        }
+
+        &__plate2 {
+            padding-left: 0;
+        }
+
+        &__plate3 {
+            margin-left: 0;
+        }
+    }
+
+    @media screen and (max-width: 991px) {
+
+
+        &__title {
+            font-size: 20px;
+            line-height: 1;
+        }
+
+        &__text {
+            font-size: 17px;
+        }
+
+        & {
+            padding-top: 80px;
+            padding-bottom: 50px;
+        }
     }
 }

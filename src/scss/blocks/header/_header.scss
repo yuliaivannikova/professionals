@@ -27,4 +27,45 @@
     }
 
 
+    @media screen and (max-width: 991px) {
+        &__main {
+            padding-top: 85px;
+            padding-bottom: 114px;
+        }
+
+        &__title {
+            font-size: 84px;
+        }
+
+    }
+
+    @media screen and (max-width: 767px) {
+        &__text {
+            font-size: 27px;
+        }
+
+        &__title {
+            font-size: 53px;
+            padding-bottom: 37px;
+        }
+
+    }
+
+    @media screen and (max-width: 575px) {
+        &__text {
+            font-size: 25px;
+        }
+
+        &__title {
+            font-size: 33px;
+            line-height: 1;
+        }
+
+        &__main {
+            padding-top: 35px;
+        }
+
+    }
+
+
 }

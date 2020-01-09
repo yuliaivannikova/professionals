@@ -94,6 +94,33 @@
         border-radius: 4px;
     }
 
+    @media screen and (max-width: 991px) {
+
+        &__title {
+            font-size: 18px;
+
+        }
+
+        &__text {
+            font-size: 17px;
+            line-height: 27px;
+        }
+
+        & {
+            padding-top: 80px;
+            height: 80%;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+
+        & {
+            height: 1500px;
+        }
+    }
+
+
+
 }
 
 .faqs__title:not(.collapsed) {

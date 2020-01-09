@@ -60,5 +60,47 @@
 
     }
 
+    @media screen and (max-width: 991px) {
+        &__number {
+            font-size: 35px;
+        }
+
+        &__radius::after,
+        &__radius {
+
+            width: 65px;
+            height: 65px;
+        }
+
+        &__title {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        &__text {
+            font-size: 17px;
+        }
+
+        & {
+            padding-top: 80px;
+            padding-bottom: 50px;
+        }
+
+        &__wrapper {
+            justify-content: space-between;
+        }
+    }
+
+    @media screen and (max-width: 575px) {
+
+        &__text {
+            padding-bottom: 26px;
+        }
+
+
+    }
+
+
+
 
 }
