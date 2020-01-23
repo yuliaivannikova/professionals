@@ -3792,6 +3792,8 @@ html {
     font-size: 24px;
     font-weight: 400;
     line-height: 46px; }
+    .nav__link:hover {
+      color: #5DBDFE !important; }
   .nav__dropdown {
     border: none;
     color: #333;

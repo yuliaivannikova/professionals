@@ -21,7 +21,12 @@
         font-size: 24px;
         font-weight: 400;
         line-height: 46px;
+
+        &:hover {
+            color: #5DBDFE !important;
+        }
     }
+
 
     &__dropdown {
         border: none;
