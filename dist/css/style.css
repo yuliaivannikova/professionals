@@ -3941,6 +3941,11 @@ html {
   line-height: 46px;
   display: none; }
 
+.portfolio__icon:before {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 @media screen and (max-width: 767px) {
   .portfolio__img-link:hover .portfolio__plus {
     width: 50px;
