@@ -3179,6 +3179,17 @@ html {
     text-align: center;
     padding-bottom: 57px;
     padding-right: 3px; }
+  .advantages__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
   .advantages__radius {
     border-radius: 50%;
     width: 90px;
@@ -4087,7 +4098,11 @@ img {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-position: top; }
+  background-position: top;
+  -ms-flex: 1;
+  -webkit-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1; }
 
 .base__text {
   opacity: 0.8;
