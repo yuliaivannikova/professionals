@@ -1,7 +1,7 @@
 //video
 
 $("#video").vide({
-    // mp4: "./video/video-bg",
+    mp4: "./video/video-bg",
     poster: "./video/video-bg.jpg",
 }, {
     volume: 1,
