@@ -13,6 +13,8 @@
 
     &__item {
         margin-left: 52px;
+        display: flex;
+        justify-content: center;
 
     }
 
@@ -22,6 +24,7 @@
         font-weight: 400;
         line-height: 46px;
         transition: ease .8s;
+        width: max-content;
 
         &:hover {
             color: #5DBDFE !important;

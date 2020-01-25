@@ -12,8 +12,6 @@
         line-height: 1;
         padding-top: 29px;
         padding-bottom: 10px;
-
-
     }
 
     &__subtitle {
@@ -38,8 +36,6 @@
     }
 
     @media screen and (max-width: 991px) {
-
-
         &__title {
             font-size: 20px;
             text-align: center;
@@ -57,8 +53,6 @@
         &__img {
             max-width: 70%;
         }
-
-
     }
 
     @media screen and (max-width: 767px) {
@@ -66,8 +60,5 @@
         &__text {
             padding-bottom: 20px;
         }
-
-
     }
-
 }
